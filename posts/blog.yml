@@ -1,10 +1,9 @@
-title: Rust Blog
-index-title: The Rust Programming Language Blog
-link-text: the main Rust blog
-description: Empowering everyone to build reliable and efficient software.
-index-html: This is the <b>main Rust blog</b>. The
-            <a href="https://www.rust-lang.org/governance/teams/core">core team</a>
-            uses this blog to announce big developments in the world of Rust.
-maintained-by: the Rust Team
+title: 创新思维博客
+index-title: 生活因技术而更美好
+link-text: 生活因技术而更美好
+description: 分享好文章，好思想
+index-html: 生活因技术而更美好.
+            探索新技术、新思维，激发有价值的创造力
+maintained-by: 个人
 requires-team: false
 

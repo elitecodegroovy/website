@@ -47,18 +47,18 @@ fn hb_month_helper<'a>(
         .parse()
         .or_else(|_| Err(RenderError::new("The value is not a number")))?;
     let name = match num {
-        1 => "Jan.",
-        2 => "Feb.",
-        3 => "Mar.",
-        4 => "Apr.",
-        5 => "May",
-        6 => "June",
-        7 => "July",
-        8 => "Aug.",
-        9 => "Sept.",
-        10 => "Oct.",
-        11 => "Nov.",
-        12 => "Dec.",
+        1 => "1月.",
+        2 => "2月.",
+        3 => "3月.",
+        4 => "4月.",
+        5 => "5月.",
+        6 => "6月.",
+        7 => "7月.",
+        8 => "8月.",
+        9 => "9月.",
+        10 => "10月.",
+        11 => "11月.",
+        12 => "12月.",
         _ => "Error!",
     };
     out.write(name)?;
